@@ -1,0 +1,9 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1718391878
+icon.svg::CompressedTexture2D::700885156710321185::1718387584::1718387589::1::::<><>::
+Ball.gd::GDScript::-1::1718390998::0::1::::<>Area2D<>::
+ball.tscn::PackedScene::767016352152628294::1718391891::0::1::::<><>::res://Ball.gd
+block.tscn::PackedScene::7069111418436773974::1718391883::0::1::::<><>::res://block.gd
+block.gd::GDScript::-1::1718391881::0::1::::<>Area2D<>::
+vaus.gd::GDScript::-1::1718390730::0::1::::<>Area2D<>::
+vaus.tscn::PackedScene::1150941525686342803::1718391004::0::1::::<><>::res://vaus.gd

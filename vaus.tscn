@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://qnr3rvfc0cu2"]
+
+[ext_resource type="Script" path="res://vaus.gd" id="1_h7bj6"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7r1i3"]
+
+[node name="Vaus" type="Area2D" groups=["vaus"]]
+position = Vector2(552, 328)
+script = ExtResource("1_h7bj6")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." groups=["vaus"]]
+shape = SubResource("RectangleShape2D_7r1i3")
+debug_color = Color(0.819608, 0.376471, 0.4, 0.572549)
