@@ -9,38 +9,208 @@
 [node name="Vaus" parent="." instance=ExtResource("1_y4qdh")]
 position = Vector2(544, 632)
 
-[node name="Block2" parent="." instance=ExtResource("2_elqcr")]
-position = Vector2(712, 144)
-color = Color(0.927921, 0.901628, 0.389901, 1)
-
-[node name="Block" parent="." instance=ExtResource("2_elqcr")]
-position = Vector2(864, 144)
-color = Color(0.927921, 0.901628, 0.389901, 1)
-
 [node name="Ball" parent="." instance=ExtResource("3_kqi4i")]
 position = Vector2(544, 608)
 rotation = 4.71239
 
-[node name="Block3" parent="." instance=ExtResource("2_elqcr")]
-position = Vector2(144, 104)
-color = Color(0.927921, 0.901628, 0.389901, 1)
+[node name="Blocks" type="Node" parent="."]
 
-[node name="Block4" parent="." instance=ExtResource("2_elqcr")]
-position = Vector2(296, 104)
+[node name="Block" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(936, 104)
 color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
 
-[node name="Block5" parent="." instance=ExtResource("2_elqcr")]
-position = Vector2(400, 200)
+[node name="Block2" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(832, 104)
 color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
 
-[node name="Block6" parent="." instance=ExtResource("2_elqcr")]
-position = Vector2(552, 200)
+[node name="Block3" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(728, 104)
 color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
 
-[node name="Block7" parent="." instance=ExtResource("2_elqcr")]
-position = Vector2(752, 296)
+[node name="Block4" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(624, 104)
 color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
 
-[node name="Block8" parent="." instance=ExtResource("2_elqcr")]
-position = Vector2(904, 296)
+[node name="Block5" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(520, 104)
 color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
+
+[node name="Block6" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(416, 104)
+color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
+
+[node name="Block7" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(312, 104)
+color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
+
+[node name="Block8" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(208, 104)
+color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
+
+[node name="Block9" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(936, 128)
+color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
+
+[node name="Block10" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(832, 128)
+color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
+
+[node name="Block11" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(728, 128)
+color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
+
+[node name="Block12" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(624, 128)
+color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
+
+[node name="Block13" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(520, 128)
+color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
+
+[node name="Block14" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(416, 128)
+color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
+
+[node name="Block15" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(312, 128)
+color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
+
+[node name="Block16" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(208, 128)
+color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
+
+[node name="Block17" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(936, 80)
+color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
+
+[node name="Block18" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(832, 80)
+color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
+
+[node name="Block19" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(728, 80)
+color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
+
+[node name="Block20" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(624, 80)
+color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
+
+[node name="Block21" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(520, 80)
+color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
+
+[node name="Block22" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(416, 80)
+color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
+
+[node name="Block23" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(312, 80)
+color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
+
+[node name="Block24" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(208, 80)
+color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
+
+[node name="Block25" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(936, 152)
+color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
+
+[node name="Block26" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(832, 152)
+color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
+
+[node name="Block27" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(728, 152)
+color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
+
+[node name="Block28" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(624, 152)
+color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
+
+[node name="Block29" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(520, 152)
+color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
+
+[node name="Block30" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(416, 152)
+color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
+
+[node name="Block31" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(312, 152)
+color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
+
+[node name="Block32" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(208, 152)
+color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
+
+[node name="Block33" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(936, 176)
+color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
+
+[node name="Block34" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(832, 176)
+color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
+
+[node name="Block35" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(728, 176)
+color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
+
+[node name="Block36" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(624, 176)
+color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
+
+[node name="Block37" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(520, 176)
+color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
+
+[node name="Block38" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(416, 176)
+color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
+
+[node name="Block39" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(312, 176)
+color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true
+
+[node name="Block40" parent="Blocks" instance=ExtResource("2_elqcr")]
+position = Vector2(208, 176)
+color = Color(0.927921, 0.901628, 0.389901, 1)
+metadata/_edit_group_ = true

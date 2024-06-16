@@ -5,8 +5,8 @@
 [sub_resource type="CircleShape2D" id="CircleShape2D_2dw08"]
 
 [node name="Ball" type="Area2D"]
-position = Vector2(486, 357)
-rotation = 4.00902
+position = Vector2(132, 387)
+rotation = 2.96706
 script = ExtResource("1_l7m2m")
 radius = 10.0
 

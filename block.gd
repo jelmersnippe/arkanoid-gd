@@ -1,5 +1,7 @@
 extends Area2D
 
+class_name Block
+
 @export var color: Color = Color.AQUA:
 	set(value):
 		color = value
